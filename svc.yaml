@@ -2,14 +2,14 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: nima-deploy
-  name: nima-svc
-  #namespace: nima
+    app: nl33-deploy
+  name: nl33-svc
+  #namespace: pet
 spec:
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
-    app: nima-deploy
+    app: nl33-deploy
   type: NodePort
