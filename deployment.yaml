@@ -2,17 +2,17 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
-  name: nima-deploy
+    app: nl33-deploy
+  name: nl33-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: nima-deploy
+      app: nl33-deploy
   template:
     metadata:
       labels:
-        app: nima-deploy
+        app: nl33-deploy
     spec:
       containers:
       - image: nlhamo33/bhutan:latest
