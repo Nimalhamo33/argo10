@@ -15,5 +15,5 @@ spec:
         app: nl33-deploy
     spec:
       containers:
-      - image: nlhamo33/bhutan:latest
+      - image: nlhamo33/bhutan:24
         name: pet
